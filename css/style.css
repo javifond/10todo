@@ -1,0 +1,107 @@
+body {
+	padding: 0;
+	border: 0;
+	font-family: Century Gothic, sans-serif;
+}
+ul {
+	list-style: none;
+	overflow: hidden;
+}
+.todo {
+	background: rgb(246, 247, 247);
+	color: rgb( 52, 52, 52 );
+	padding: 1px;
+	border: none !important;
+	margin: 10px;
+}
+div.head, div.empty, div.list, div.buttons, div.title {
+	margin: 8px;
+}
+.title {
+	font-size: 24px;
+}
+.head{
+	background: rgb( 52, 52, 52 );
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+.empty {
+	display: none;
+	background: rgb( 235, 235, 235 );
+	text-align: center;
+	padding: 4%;
+}
+#showMenu {
+	cursor: pointer;
+}
+.list {
+	background: rgb( 235, 235, 235 );
+	padding: 2%;
+	display: none;
+}
+.tasks {
+	margin-bottom: 20px;
+}
+.border10 {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(214, 214, 214);
+}
+.format{
+	margin-left: 10px;
+}
+.form-control {
+	margin-bottom: 10px;
+}
+.btn {
+	width: 100%;
+	font-size: 18px;
+}
+ul {
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.done {
+	text-decoration: line-through;
+}
+nav {
+	background: rgb(246, 247, 247);
+	color: rgb( 52, 52, 52 );
+	border: none !important;
+	margin: 10px;
+}
+nav div {
+	display: inline-block;
+	margin: 10px;
+}
+nav div:nth-child(2), nav div:nth-child(3){
+	float: right;
+}
+.fa-2x {
+	color: rgb( 52, 52, 52 );
+}
+.container {
+	padding: 0;
+	margin: 0;
+	width: 100% !important;
+}
+.about {
+	background: rgb(246, 247, 247);
+	color: rgb( 52, 52, 52 );
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	right: 10%;
+	padding: 15px;
+	max-height: 70%;
+	overflow: scroll;
+	text-align: justify;
+}
+footer {
+	float: right;
+	margin: 10px;
+	position: static;
+}

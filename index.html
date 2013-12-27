@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>10-ToDo</title>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+	<link href="css/bootstrap-dialog.css" rel="stylesheet"/>
+	<link href="css/component.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet"/>
+	<script src="js/modernizr.custom.65858.js"></script>
+</head>
+<body>
+	<div id="perspective" class="perspective effect-laydown">
+		<div class="container">
+			<div class="wrapper" style="top: 0px;">
+				<nav class="border10">
+					<div><a href="https://github.com/javifond" target="_blank"><span><i class="fa fa-github fa-2x"></i></span></a></div>
+					<div id="showMenu"><span><i class="fa fa-info-circle fa-2x"></i></span></div>
+					<div><a href="mailto:javifond@gmail.com"><span><i class="fa fa-envelope fa-2x"></i></span></a></div>
+				</nav>
+				<div class="todo border10">
+					<div class="head border10">10 - ToDo</div>
+					<div class="title">Your Tasks:</div>
+					<div class="tasks">
+						<div class="empty border10">Sure you have a lot to do. Let's start!</div>
+						<div class="list border10"><ul></ul></div>
+						<div class="buttons">
+							<input id ="taskToAdd" type="text" maxlength="128" class="form-control" placeholder="Add new ToDo here">
+							<button id = "addTask" type="button" class="btn btn-primary">New Task</button>
+						</div>
+					</div>
+				</div>
+				<footer><a href="http://javierbetancourth.com/" target="_blank">Javier Betancourth</a></footer>
+			</div>
+		</div>
+		<div class="about border10">
+			<h1>About 10-ToDo v1.0</h1>
+			<hr>
+			<span>
+				<label>Author:</label><p>Javier Betancourth</p>
+				<p><strong>10-ToDo</strong> is a simple ten task manager which pretends to help user with common daily stuffs. It allows only ten tasks pending, the reason is quite simple, to be organized implies do things in a certain order and amount of tasks for every goal.</p>
+				<p><strong>10-ToDo</strong> is based on HTML5, CSS3 and JS, using Local Storage to manage and store user tasks, this means that if for some reason user clean Local Storage pending tasks will be lost.</p>
+				<label>Inspitation:</label><p>I based my development and design on the following articles:</p>
+				<p><a href="http://tympanus.net/codrops/2013/12/18/perspective-page-view-navigation/" target="_blank">Perspective Navigation</a></p>
+				<p><a href="http://nakupanda.github.io/bootstrap3-dialog/" target="_blank">Bootstrap3-dialog</a></p>
+				<p><a href="http://blog.campoy.cat/2013/12/writing-moder-web-app-with-go-tdd-rest.html" target="_blank">Writing a modern web app with Go, TDD, REST, and AngularJS</a></p>
+				<p>Please do not hesitate to contact me for comments or questions.</p>
+				<p>Many thanks for using it.</p>
+				<p><strong>Cheers!</strong></p>
+			</span>
+		</div>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap-dialog.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
