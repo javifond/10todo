@@ -16,7 +16,7 @@ Bootstrap3-dialog:
 http://nakupanda.github.io/bootstrap3-dialog/
 
 Writing a modern web app with Go, TDD, REST, and AngularJS:
-ttp://blog.campoy.cat/2013/12/writing-moder-web-app-with-go-tdd-rest.html
+http://blog.campoy.cat/2013/12/writing-moder-web-app-with-go-tdd-rest.html
 
 Please do not hesitate to contact me for comments or questions.
 
