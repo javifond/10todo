@@ -84,7 +84,7 @@ nav div:nth-child(2){
 .fa-3x {
 	color: rgb( 52, 52, 52 );
 }
-.fa {
+.list .fa {
 	display: initial;
 	font-size: 24px;
 }
