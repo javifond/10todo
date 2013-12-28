@@ -3,10 +3,6 @@ body {
 	border: 0;
 	font-family: Century Gothic, sans-serif;
 }
-ul {
-	list-style: none;
-	overflow: hidden;
-}
 .todo {
 	background: rgb(246, 247, 247);
 	color: rgb( 52, 52, 52 );
@@ -40,6 +36,9 @@ div.head, div.empty, div.list, div.buttons, div.title {
 	padding: 2%;
 	display: none;
 }
+.list li{
+	margin-bottom: 10px;
+}
 .tasks {
 	margin-bottom: 20px;
 }
@@ -54,6 +53,7 @@ div.head, div.empty, div.list, div.buttons, div.title {
 }
 .form-control {
 	margin-bottom: 10px;
+	font-size: 18px;
 }
 .btn {
 	width: 100%;
@@ -61,8 +61,9 @@ div.head, div.empty, div.list, div.buttons, div.title {
 }
 ul {
 	padding: 0;
-	font-size: 16px;
-	line-height: 1.5;
+	font-size: 20px;
+	list-style: none;
+	overflow: hidden;
 }
 .done {
 	text-decoration: line-through;
@@ -75,13 +76,17 @@ nav {
 }
 nav div {
 	display: inline-block;
-	margin: 10px;
+	margin: 15px;
 }
-nav div:nth-child(2), nav div:nth-child(3){
+nav div:nth-child(2){
 	float: right;
 }
-.fa-2x {
+.fa-3x {
 	color: rgb( 52, 52, 52 );
+}
+.fa {
+	display: initial;
+	font-size: 24px;
 }
 .container {
 	padding: 0;

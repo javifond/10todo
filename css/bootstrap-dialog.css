@@ -13,7 +13,7 @@
     color: #333;
 }
 .bootstrap-dialog.size-normal .bootstrap-dialog-title {
-    font-size: 16px;
+    font-size: 18px;
 }
 .bootstrap-dialog.size-large .bootstrap-dialog-title {
     font-size: 24px;
@@ -39,10 +39,10 @@
     opacity: 1;
 }
 .bootstrap-dialog.size-normal .bootstrap-dialog-message {
-    font-size: 14px;
+    font-size: 18px;
 }
 .bootstrap-dialog.size-large .bootstrap-dialog-message {
-    font-size: 18px;
+    font-size: 20px;
 }
 .bootstrap-dialog.type-default .modal-header {
     background-color: #fff;
